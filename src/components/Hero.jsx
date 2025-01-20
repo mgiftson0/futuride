@@ -1,20 +1,27 @@
-import Header from './Header'; // Adjust the path if necessary
+import Header from './Header'; 
 import heroImage from '../assets/HeroImg.jpg';
 
 const Hero = () => {
   return (
     <section
-      className="h-[100vh] bg-cover bg-center flex flex-col justify-between"
+      className="h-[900px] bg-cover bg-center flex flex-col justify-between"
       style={{ backgroundImage: `url(${heroImage})` }}
     >
       {/* Header Component */}
       <Header />
 
       {/* Hero Content */}
-      <div className="flex flex-col items-center justify-center flex-grow text-center text-white">
-        <h1 className="text-5xl font-bold mb-4">Discover Your Next Ride</h1>
-        <p className="text-lg mb-6">The best cars, the best deals, just for you.</p>
-        <button className="px-6 py-3 bg-blue-600 rounded-md text-white hover:bg-blue-700">
+      <div className="flex flex-col items-center justify-center flex-grow text-center text-white mt-[-450px]">
+        <h1 
+          className="text-6xl font-normal leading-none"
+          style={{ fontFamily: 'Georgia, serif', textAlign: 'center' }}
+        >
+          Unveiling the Future: <br/>BMW's Vision
+        </h1>
+        <p className="text-lg text-gray-300 mt-3">
+            Discover the epitome of luxury and innovation with our latest BMW models, designed to redefine <br/> the standards of automotive excellence and push the boundaries of engineering and design.
+            </p>
+        <button className="px-6 py-3 mt-3 bg-[#000061] rounded-md text-white hover:bg-blue-700">
           Explore Now
         </button>
       </div>
