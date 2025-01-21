@@ -19,7 +19,7 @@ const Sponsors = () => {
     ];
   
     return (
-      <section className="py-12" style={{ backgroundColor: "#000042" }}>
+      <section className="py-12" style={{ backgroundColor: "#093381" }}>
         <div className="flex flex-wrap justify-center gap-6 sm:gap-8 max-w-screen-lg mx-auto">
           {sponsors.map((sponsor) => (
             <div
