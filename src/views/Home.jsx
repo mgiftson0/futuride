@@ -3,7 +3,8 @@ import Sponsors from '../components/Sponsors';
 import ThirdSection from '../components/ThirdSection';
 import FourthSection from '../components/FourthSection';
 import FifthSection from '../components/FifthSection';
-
+import LastSection from '../components/LastSection';
+import Footer from '../components/Footer';
 
 const Home = () => {
   return (
@@ -14,7 +15,9 @@ const Home = () => {
     <hr />
       <FourthSection />
       <FifthSection />
-
+      <LastSection />
+      <br/>
+      <Footer />
     </div>
   );
 };
