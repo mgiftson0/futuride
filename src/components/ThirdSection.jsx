@@ -23,12 +23,12 @@ const ThirdSection = () => {
 
   return (
     <section
-      className="h-[600px] bg-cover bg-center bg-no-repeat flex items-center justify-center text-center text-white px-4"
+      className="h-[600px] sm:h-[500px] lg:h-[600px] bg-cover bg-center bg-no-repeat flex items-center justify-center text-center text-white px-4"
       style={{ backgroundImage: `url(${bgImage})` }}
     >
-      <div className="max-w-3xl mt-[-300px] sm:mt-[-300px]">
+      <div className="max-w-3xl mt-[-250px] sm:mt-[-300px]">
         <h2
-          className="text-5xl sm:text-2xl mb-5 third-section-title"
+          className="text-5xl sm:text-4xl mb-5 third-section-title"
           style={{
             fontFamily: 'Georgia, serif',
             color: 'rgba(0, 0, 0, 0.85)',
