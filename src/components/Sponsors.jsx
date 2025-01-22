@@ -1,19 +1,19 @@
 const Sponsors = () => {
     const sponsors = [
       {
-        // name: "Mercedes",
+        name: "Mercedes",
         logo: "https://upload.wikimedia.org/wikipedia/commons/9/90/Mercedes-Logo.svg",
       },
       {
-        // name: "Porsche",
+        name: "Porsche",
         logo: "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/Porsche_logo.svg/800px-Porsche_logo.svg.png",
       },
       {
-        // name: "Audi",
+        name: "Audi",
         logo: "https://upload.wikimedia.org/wikipedia/commons/8/89/Audi_Logo.svg",
       },
       {
-        // name: "Tesla",
+        name: "Tesla",
         logo: "https://upload.wikimedia.org/wikipedia/commons/b/bd/Tesla_Motors.svg",
       },
     ];
