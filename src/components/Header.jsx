@@ -2,7 +2,7 @@ import logo from '../assets/logo.png';
 
 const Header = () => {
   return (
-    <header className="sticky top-0 z-50 flex justify-between items-center px-6 py-4 text-white">
+    <header className="sticky top-0 z-50 flex justify-between items-center px-6 py-4 text-white shadow-md">
       {/* Logo and Name */}
       <div className="ml-4 flex items-center space-x-2">
         <img src={logo} alt="Logo" className="h-8 w-8" />
