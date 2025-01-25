@@ -53,7 +53,7 @@ const Hero = () => {
           the standards of automotive excellence and push the boundaries of engineering and design.
         </p>
         <button className="px-6 py-3 mt-3 bg-[#000061] rounded-md text-white hover:bg-blue-700 text-sm sm:text-base reveal-button">
-          Explore Now
+          Explore Now 
         </button>
       </div>
     </section>
