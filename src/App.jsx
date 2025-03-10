@@ -25,7 +25,7 @@ function App() {
     return (
       <div className="h-screen flex items-center justify-center bg-gray-100 text-center px-4">
         <p className="text-lg text-gray-800">
-          This application is not accessible on screens smaller than 460px. Please use a larger device.
+          This website is not accessible on screens smaller than 460px or mobile screens. Please use a larger device.
         </p>
       </div>
     );
