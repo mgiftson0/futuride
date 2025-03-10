@@ -21,7 +21,7 @@ const FifthSection = () => {
       distance: '50px',
       duration: 1000,
       opacity: 0,
-      interval: 200, // Adds delay between each image
+      interval: 200, 
     };
 
     ScrollReveal().reveal('.fifth-section-header', headerConfig);
