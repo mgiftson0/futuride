@@ -17,16 +17,16 @@ const Header = () => {
       {/* Navigation Links */}
       <nav className="hidden md:flex space-x-6 mr-20">
         <a href="#home" className="hover:text-gray-500 cursor-pointer">
-          Home
+          home
         </a>
         <a href="#cars" className="hover:text-gray-500 cursor-pointer">
-          Cars
+          cars
         </a>
         <a href="#about" className="hover:text-gray-500 cursor-pointer">
-          About
+          about
         </a>
         <a href="#deals" className="hover:text-gray-500 cursor-pointer">
-          Deals
+          deals
         </a>
       </nav>
 
