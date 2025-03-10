@@ -45,7 +45,7 @@ const Hero = () => {
           className="text-4xl sm:text-6xl font-normal leading-none reveal-header"
           style={{ fontFamily: 'Georgia, serif', textAlign: 'center' }}
         >
-          Unveiling the Future: <br />BMW's Vision
+          Unveiling the Future: <br />futuride Vision
         </h1>
         <p className="text-sm sm:text-lg text-gray-300 mt-3 px-2 sm:px-0 reveal-paragraph">
           Discover the epitome of luxury and innovation with our latest BMW models, designed to redefine
