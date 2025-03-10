@@ -19,13 +19,13 @@ const Header = () => {
         <a href="#home" className="hover:text-gray-500 cursor-pointer">
           home
         </a>
-        <a href="#cars" className="hover:text-gray-500 cursor-pointer">
+        <a href="#home" className="hover:text-gray-500 cursor-pointer">
           cars
         </a>
-        <a href="#about" className="hover:text-gray-500 cursor-pointer">
+        <a href="#home" className="hover:text-gray-500 cursor-pointer">
           about
         </a>
-        <a href="#deals" className="hover:text-gray-500 cursor-pointer">
+        <a href="#home" className="hover:text-gray-500 cursor-pointer">
           deals
         </a>
       </nav>
